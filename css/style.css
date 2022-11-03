@@ -26,7 +26,7 @@ ul {
 body {
   background: url("../images/bg-desktop.svg") no-repeat center;
   background-size: cover;
-  background-color: blueviolet;
+  background-color: hsl(257, 40%, 49%);
   color: #ffffff;
   height: 100vh;
   font-family: "Open Sans", arial, sans-serif;
@@ -158,6 +158,11 @@ p {
 }
 
 @media (max-width: 425px) {
+  body {
+    background: url("../images/bg-mobile.svg") no-repeat;
+    background-color: hsl(257, 40%, 49%);
+  }
+
   .header {
     padding-top: 3.6rem;
     padding-bottom: 5.6rem;
